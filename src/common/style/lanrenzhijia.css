@@ -1,0 +1,138 @@
+/* 代码整理：懒人之家 www.lanrenzhijia.com */
+html, body {
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+a {
+	-webkit-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	-moz-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	-ms-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	-o-transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	transition: all 250ms cubic-bezier(0.230, 1.000, 0.320, 1.000);
+	text-decoration: none;
+}
+.header {
+	text-align: left;
+	position: absolute;
+	color: #333;
+	width: 100%;
+	top: 9%;
+}
+.header h1 {
+	letter-spacing: -1px;
+	text-shadow: -2px -1px 1px #fff, 1px 2px 2px rgba(0, 0, 0, 0.2);
+	font-weight: 300;
+	font-size: 36px;
+	margin: 0;
+}
+.header h2 {
+	text-transform: uppercase;
+	text-shadow: -2px -1px 1px #fff, 1px 1px 1px rgba(0, 0, 0, 0.15);
+	font-weight: 300;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.7);
+	margin: 0;
+}
+.demo:after {
+	box-shadow: 0 1px 16px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	content: '';
+	height: 10px;
+	width: 100%;
+	top: 0;
+}
+.list {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	text-transform: uppercase;
+}
+.list a {
+	display: block;
+	color: #fff;
+}
+.list a:hover {
+	text-indent: 20px;
+}
+.list dt, .list dd {
+	text-indent: 10px;
+	line-height: 55px;
+	margin: 0;
+	height: 55px;
+	width: 270px;
+	color: #fff;
+}
+.list dt {
+	/* Since we're hiding elements behind here, we need it in 3d */
+    -webkit-transform: translateZ(0.3px);
+	-moz-transform: translateZ(0.3px);
+	-ms-transform: translateZ(0.3px);
+	-o-transform: translateZ(0.3px);
+	transform: translateZ(0.3px);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	font-size: 15px;
+}
+.list dd {
+	line-height: 0.65rem;
+	font-size: 0.25rem;
+	height: 0.65rem;
+	margin: 0;
+}
+.toggle {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	line-height: 50px;
+	margin-left: -70px;
+	margin-top: -20px;
+	text-align: left;
+	font-size: 12px;
+	position: absolute;
+	height: 50px;
+	bottom: 0%;
+	width: 140px;
+	color: #fff;
+	left: 50%;
+}
+.nigiri {
+	-webkit-transform: perspective(1200px) rotateY(40deg) !important;
+	-moz-transform: perspective(1200px) rotateY(40deg) !important;
+	-ms-transform: perspective(1200px) rotateY(40deg) !important;
+	-o-transform: perspective(1200px) rotateY(40deg) !important;
+	transform: perspective(1200px) rotateY(40deg) !important;
+	-webkit-transform-origin: 110% 25%;
+	-moz-transform-origin: 110% 25%;
+	-ms-transform-origin: 110% 25%;
+	-o-transform-origin: 110% 25%;
+	transform-origin: 110% 25%;
+	left: 20%;
+}
+.maki {
+	-webkit-transform: perspective(600px) translateZ(1px) !important;
+	-moz-transform: perspective(600px) translateZ(1px) !important;
+	-ms-transform: perspective(600px) translateZ(1px) !important;
+	-o-transform: perspective(600px) translateZ(1px) !important;
+	transform: perspective(600px) translateZ(1px) !important;
+	left: 50%;
+}
+.sashimi {
+	-webkit-transform: perspective(1200px) rotateY(-40deg) !important;
+	-moz-transform: perspective(1200px) rotateY(-40deg) !important;
+	-ms-transform: perspective(1200px) rotateY(-40deg) !important;
+	-o-transform: perspective(1200px) rotateY(-40deg) !important;
+	transform: perspective(1200px) rotateY(-40deg) !important;
+	-webkit-transform-origin: -10% 25%;
+	-moz-transform-origin: -10% 25%;
+	-ms-transform-origin: -10% 25%;
+	-o-transform-origin: -10% 25%;
+	transform-origin: -10% 25%;
+	left: 80%;
+}
+/* 代码整理：懒人之家 www.lanrenzhijia.com */
